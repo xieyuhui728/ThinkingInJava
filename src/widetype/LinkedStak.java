@@ -24,7 +24,7 @@ public class LinkedStak<T> {
         }
     }
 
-    private Node<T> top = new Node<T>();//end sentinel
+    private Node<T> top = new Node<T>();//end sentinel Ä©¶ËÉÚ±ø
 
     public void push(T item) {
         top = new Node<T>(item, top);
@@ -36,5 +36,16 @@ public class LinkedStak<T> {
             top = top.next;
         }
         return result;
+    }
+
+    public static void main(String[] args) {
+        LinkedStak<String> linkedStak =new LinkedStak<String>();
+        for(String s:"Phasers on sun!".split(" ")){
+            linkedStak.push(s);
+        }
+       String s;
+        while ((s=linkedStak.pop())!=null){
+            System.out.println(s);
+        }
     }
 }
