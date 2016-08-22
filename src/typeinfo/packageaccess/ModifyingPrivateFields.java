@@ -3,8 +3,8 @@ package typeinfo.packageaccess;
 import java.lang.reflect.Field;
 
 /**
- * Created by Ğ»Óî»Ô on 2016/8/21 0021.
- *ÀûÓÃ·´Éä¿ÉÒÔµØµ÷ÓÃÄÇĞ©·Ç¹«¹²·ÃÎÊÈ¨ÏŞµÄ·½·¨
+ * Created by è°¢å®‡è¾‰ on 2016/8/21 0021.
+ *åˆ©ç”¨åå°„å¯ä»¥è°ƒç”¨é‚£äº›éå…¬å…±è®¿é—®æƒé™çš„æ–¹æ³•
  */
 
 class WithPrivateFinalField{
