@@ -4,4 +4,5 @@
 其中也包括一些自己编写的util类。
 这个项目的东西更像是些散碎的待加工的零件。
 
-*搭建好自己的框架后，这里的小程序将会移植到framework项目，ThinkingInJava不会继续更新。
+*现在已经将ThinkingInJava添加到framwork项目中，作为一个模块存在。
+
